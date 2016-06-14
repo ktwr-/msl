@@ -18,6 +18,7 @@ int main(int argc,char **argv){
 	t1 = mythread_create(f1,"kin");
 	t2 = mythread_create(f1,"patsu");
 	mythread_join(t1);
+	printf("test\n");
 	mythread_join(t2);
 	
 	return 0;
